@@ -15,6 +15,7 @@ development:
   username: vitya
   database: app-dev
   password: 'pass'
+  port: 5433
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -25,6 +26,7 @@ test:
   username: vitya
   database: app-dev
   password: 'pass'
+  port: 5433
 
 production:
   adapter: postgresql
