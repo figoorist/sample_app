@@ -11,11 +11,13 @@ gem 'bcrypt'
 group :development, :test do
   gem 'rspec-rails'
   gem 'guard-rspec'
+  gem 'rubocop-rspec'
 end
 
 group :test do
   gem 'selenium-webdriver'
   gem 'capybara', '2.13'
+  gem 'factory_bot_rails'
 end
 
 # Use SCSS for stylesheets
