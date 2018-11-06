@@ -44,4 +44,5 @@ end
 group :production do
   gem 'pg'
   gem 'rails_12factor', '0.0.2'
+  gem 'sprockets', '~>3.7.2'
 end
