@@ -5,7 +5,7 @@ ruby '2.5.3'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
 gem 'pg'
-gem 'bootstrap-sass'
+gem 'bootstrap-sass', '3.3.7'
 gem 'bcrypt'
 
 group :development, :test do

@@ -258,7 +258,7 @@ PLATFORMS
 
 DEPENDENCIES
   bcrypt
-  bootstrap-sass
+  bootstrap-sass (= 3.3.7)
   capybara (= 2.13)
   coffee-rails (~> 4.2)
   factory_bot_rails
